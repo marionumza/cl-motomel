@@ -67,7 +67,7 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-motomel.git',
+        #'git@github.com:jobiols/cl-motomel.git',
         #'git@github.com:jobiols/odoo-jeo-ce.git',
         #'git@github.com:jobiols/odoo-private-addons.git',
 
