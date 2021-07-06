@@ -19,7 +19,7 @@
 ##############################################################################
 
 {
-    'name': 'template',
+    'name': 'Motomel',
     'version': '13.0.1.0.0',
     'category': 'Tools',
     'summary': "Test for v13 CE",
@@ -67,9 +67,9 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-test.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
+        'git@github.com:jobiols/cl-motomel.git',
+        #'git@github.com:jobiols/odoo-jeo-ce.git',
+        #'git@github.com:jobiols/odoo-private-addons.git',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
@@ -160,7 +160,7 @@
 
         # Cambiamos por el de filoquin
         #'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
+        #'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
 
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
@@ -186,7 +186,7 @@
         'https://github.com/ingadhoc/project ingadhoc-project',
 
         # Odoomates
-        'https://github.com/odoomates/odooapps odoomates-odooapps',
+        #'https://github.com/odoomates/odooapps odoomates-odooapps',
     ],
 
     # list of images to use in the form 'name image-url'
