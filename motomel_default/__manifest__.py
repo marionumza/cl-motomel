@@ -45,7 +45,7 @@
         # Encripter master password
                 'admin_passwd = $pbkdf2-sha512$25000$V2otJaS09l7L2ft/zxkDIA$HjDfiJHGKRCkcXGsO0S/0O7Pz1UlUv87WQG1ejxocewlU28AiaeSkQPsHuKH73bqESpxkryOMjsZwMyg/iRhxQ',
         # db filder for domain
-                'dbfilter = %h.*',
+               # 'dbfilter = %h.*',
         # You should use 2 worker threads + 1 cron thread per available CPU,
         # and 1 CPU per 10 concurent users.
         # if ommited oe will calculate workers and cron´s based on # of cpu
